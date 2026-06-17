@@ -800,6 +800,9 @@ input, select, textarea { font: inherit; }
 .sherbim-card__link--emergency:hover { color: #fbbf24; }
 
 /* ── PORTFOLIO ───────────────────────────────────────────── */
+.portfolio__item.hidden {
+    display: none !important;
+} 
 .portfolio__thumb {
   position: relative;
   overflow: hidden;
